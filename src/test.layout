@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="target" />
+	<File name="briefing.c" open="1" top="0" tabpos="11">
+		<Cursor position="8379" topLine="414" />
+	</File>
+	<File name="bullets.c" open="1" top="0" tabpos="2">
+		<Cursor position="4480" topLine="148" />
+	</File>
+	<File name="controlpad.c" open="1" top="0" tabpos="3">
+		<Cursor position="999" topLine="28" />
+	</File>
+	<File name="game.c" open="1" top="0" tabpos="4">
+		<Cursor position="6629" topLine="335" />
+	</File>
+	<File name="gamemenu.c" open="1" top="0" tabpos="5">
+		<Cursor position="1559" topLine="76" />
+	</File>
+	<File name="gameproc.c" open="1" top="0" tabpos="6">
+		<Cursor position="107" topLine="0" />
+	</File>
+	<File name="gamerender.c" open="1" top="0" tabpos="7">
+		<Cursor position="6891" topLine="437" />
+	</File>
+	<File name="genmap.c" open="1" top="0" tabpos="12">
+		<Cursor position="15534" topLine="862" />
+	</File>
+	<File name="globalvar.c" open="1" top="0" tabpos="8">
+		<Cursor position="314" topLine="0" />
+	</File>
+	<File name="globalvar.h" open="1" top="0" tabpos="9">
+		<Cursor position="687" topLine="21" />
+	</File>
+	<File name="initall.c" open="1" top="0" tabpos="26">
+		<Cursor position="521" topLine="21" />
+	</File>
+	<File name="intro.c" open="1" top="0" tabpos="10">
+		<Cursor position="5385" topLine="329" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="13">
+		<Cursor position="2921" topLine="136" />
+	</File>
+	<File name="monsters.c" open="1" top="0" tabpos="14">
+		<Cursor position="9232" topLine="390" />
+	</File>
+	<File name="monsters.h" open="1" top="0" tabpos="24">
+		<Cursor position="263" topLine="0" />
+	</File>
+	<File name="particle.c" open="1" top="0" tabpos="15">
+		<Cursor position="2042" topLine="99" />
+	</File>
+	<File name="poweups.c" open="1" top="0" tabpos="16">
+		<Cursor position="797" topLine="34" />
+	</File>
+	<File name="render.c" open="1" top="0" tabpos="17">
+		<Cursor position="1526" topLine="91" />
+	</File>
+	<File name="sfont.c" open="1" top="0" tabpos="18">
+		<Cursor position="1108" topLine="27" />
+	</File>
+	<File name="sound.c" open="1" top="1" tabpos="19">
+		<Cursor position="501" topLine="20" />
+	</File>
+	<File name="sprites.c" open="1" top="0" tabpos="20">
+		<Cursor position="1173" topLine="51" />
+	</File>
+	<File name="struct.c" open="1" top="0" tabpos="27">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="tables.c" open="1" top="0" tabpos="25">
+		<Cursor position="19366" topLine="1011" />
+	</File>
+	<File name="tiledata.c" open="1" top="0" tabpos="21">
+		<Cursor position="24" topLine="0" />
+	</File>
+	<File name="types.h" open="1" top="0" tabpos="1">
+		<Cursor position="240" topLine="0" />
+	</File>
+	<File name="zmath.c" open="1" top="0" tabpos="22">
+		<Cursor position="203" topLine="7" />
+	</File>
+	<File name="zmath.h" open="1" top="0" tabpos="23">
+		<Cursor position="35" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

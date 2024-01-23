@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="host">
+				<Option output=".host\test" prefix_auto="1" extension_auto="1" />
+				<Option object_output=".host" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add directory="C:\CAANOO\GPH_SDK\DGE\include" />
+					<Add directory="C:\CAANOO\GPH_SDK\DGE\include\windows" />
+					<Add directory="C:\CAANOO\GPH_SDK\DGE\include\SDL" />
+					<Add directory="C:\CAANOO\GPH_SDK\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32" />
+					<Add option="-lDGE" />
+					<Add option="-lopengl32" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add option="-lSDL_image.dll" />
+					<Add option="-lSDL_mixer" />
+					<Add option="-lSDL_ttf" />
+					<Add directory="C:\CAANOO\GPH_SDK\DGE\lib\host" />
+					<Add directory="C:\CAANOO\GPH_SDK\lib\host" />
+				</Linker>
+			</Target>
+			<Target title="target">
+				<Option output=".target\test.gpe" prefix_auto="0" extension_auto="0" />
+				<Option object_output=".target" />
+				<Option type="0" />
+				<Option compiler="armelfgcc" />
+				<Compiler>
+					<Add option="-Os" />
+					<Add option="-Wall" />
+					<Add option="-DGP2X" />
+					<Add directory="C:\CAANOO\GPH_SDK\DGE\include" />
+					<Add directory="C:\CAANOO\GPH_SDK\DGE\include\SDL" />
+					<Add directory="C:\CAANOO\GPH_SDK\include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lDGE" />
+					<Add option="-lopengles_lite" />
+					<Add option="-lglport" />
+					<Add option="-lSDLmain" />
+					<Add option="-lSDL" />
+					<Add option="-lSDL_image" />
+					<Add option="-lSDL_mixer" />
+					<Add option="-lSDL_ttf" />
+					<Add option="-lpng" />
+					<Add option="-lz" />
+					<Add option="-lpthread" />
+					<Add option="-lts" />
+					<Add option="-lsmpeg" />
+					<Add option="-lfreetype" />
+					<Add directory="C:\CAANOO\GPH_SDK\DGE\lib\target" />
+					<Add directory="C:\CAANOO\GPH_SDK\lib\target" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="briefing.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="briefing.h" />
+		<Unit filename="bullets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bullets.h" />
+		<Unit filename="controlpad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="controlpad.h" />
+		<Unit filename="game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.h" />
+		<Unit filename="gameloop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gameloop.h" />
+		<Unit filename="gamemenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gamemenu.h" />
+		<Unit filename="gameproc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gameproc.h" />
+		<Unit filename="gamerender.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gamerender.h" />
+		<Unit filename="genmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="genmap.h" />
+		<Unit filename="globalvar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="globalvar.h" />
+		<Unit filename="initall.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="initall.h" />
+		<Unit filename="intro.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="intro.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="monsters.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="monsters.h" />
+		<Unit filename="particle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="particle.h" />
+		<Unit filename="powerups.h" />
+		<Unit filename="poweups.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="render.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="render.h" />
+		<Unit filename="sfont.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sfont.h" />
+		<Unit filename="sound.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sound.h" />
+		<Unit filename="sprites.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sprites.h" />
+		<Unit filename="struct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tables.h" />
+		<Unit filename="tiledata.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tiledata.h" />
+		<Unit filename="types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="types.h" />
+		<Unit filename="zmath.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="zmath.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
