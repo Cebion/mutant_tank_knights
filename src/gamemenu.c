@@ -244,5 +244,3 @@ void MainGameMenu(void)
 
     SetPalette(leveltheme);
 }
-wtext2(random8()+160-8*l_textstring,210,0);
-dy=320*(136+15*cursor-4-(f_sin[(mcount*128)%4096])/16384
